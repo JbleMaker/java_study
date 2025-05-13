@@ -1,0 +1,20 @@
+entity package -> User Class create
+User Class attribute (username, password, name, email, phone, address, roles)
+각각의 변수명을 보고 자료형 정의
+
+User Class - AllArgsConstructor, NoArgsConstructor Create
+Getter, Setter, toString Create. (Lombok No)
+
+service package -> UserService Class create
+UserService Class -> Singleton
+
+UserService의 기능
+register 메서드를 정의하고 매개변수로 User클래스의 모든 속성값을 전달받아
+UserService의 속성인 userList에 추가할 수 있다.
+이 때 username이 중복이면 추가 할 수 없다.
+
+printAll 메소드 정의 -> 모든 사용자 정보를 출력.
+printByUsername메서드 정의, username의 사용자 정보를 출력
+
+
+
