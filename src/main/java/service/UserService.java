@@ -10,13 +10,14 @@ public class UserService {
     private static UserService instance;
 
 
-    public void register(String username,
-                         String password,
-                         String name,
-                         String email,
-                         int phone,
-                         String address,
-                         List<String> roles){
+    public void register(
+            String username,
+            String password,
+            String name,
+            String email,
+            int phone,
+            String address,
+            List<String> roles){
 
     }
 
