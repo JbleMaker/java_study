@@ -24,8 +24,10 @@ public class Main8 {
         List<Double> doubles = List.of(1.12, 2.23, 3.34, 4.45);
         List<Integer> ints = new ArrayList<>();
 
-        for(Double double1 : doubles){
+        for(Double dou : doubles){
+            ints.add((int) Math.round(dou));
         }
+        System.out.println(ints);
 
 
     }
